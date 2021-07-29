@@ -1,2 +1,2 @@
 # springboot-mybatisplus
-springboot集成mybatis_plus
+springboot集成mybatis_plus示例
