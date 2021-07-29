@@ -1,7 +1,9 @@
 package cn.itutoia.springboot.springboot_mybatisplus.module.user.pojo.DTO;
 
+import com.sun.istack.internal.NotNull;
 import lombok.Data;
 
+import javax.validation.constraints.Size;
 import java.util.Date;
 
 /**
@@ -14,6 +16,8 @@ import java.util.Date;
 public class UserDTO {
 
     private Integer id;
+    @NotNull
+    @Size(max=32,message="名称长度不能超过{max}位")
     private String name;
     private Date birthday;
 }

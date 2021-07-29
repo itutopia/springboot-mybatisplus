@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 @ResponseBody
 public class GlobalExceptionHandler {
 
-    private static final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
+    private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
     /**
      * 自定义的业务异常处理
