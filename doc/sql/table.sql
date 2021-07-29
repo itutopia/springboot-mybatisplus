@@ -1,6 +1,19 @@
+-- ----------------------------
+-- database sdwan
+-- ----------------------------
+CREATE DATABASE IF NOT EXISTS itutopia
+DEFAULT CHARACTER SET utf8mb4;
 
+use itutopia;
+
+
+--
+-- Definition of table `user`
+-- 用户表
+--
+DROP TABLE IF EXISTS `user`;
 -- user --
-CREATE TABLE `itutopia`.`user`  (
+CREATE TABLE `user`  (
       `id` int(0) NOT NULL AUTO_INCREMENT COMMENT '主键id',
       `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '用户名称',
       `birthday` datetime(0) NULL DEFAULT NULL COMMENT '生日',
