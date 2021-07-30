@@ -1,11 +1,9 @@
 -- ----------------------------
--- database sdwan
+-- database itutopia
 -- ----------------------------
 CREATE DATABASE IF NOT EXISTS itutopia
 DEFAULT CHARACTER SET utf8mb4;
-
 use itutopia;
-
 
 --
 -- Definition of table `user`
