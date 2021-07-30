@@ -7,7 +7,7 @@ import javax.validation.constraints.Size;
 import java.util.Date;
 
 /**
- * @description: 用户接受类
+ * @description: 用户传输对象
  * @author: Junchao_Lee
  * @e-mail: ljch867@163.com
  * @date: 2021/7/29 10:05
